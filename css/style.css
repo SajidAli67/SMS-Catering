@@ -1,0 +1,135 @@
+:root{
+ --primary_color:#ff5a00:
+}
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    max-width: 100vw; 
+    max-height: 100vh;
+}
+.header_text{
+    color: #ffa500;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 3.75rem 0px;
+}
+nav{
+    height: 3.7rem;
+    border-bottom:1px solid #ffa500;
+    margin:0.5rem 0px;
+    
+}
+nav .nav-link{
+    color:#ffa500;
+    font-size:1.2rem;
+}
+nav .nav-link:hover{
+    color:#ffa500;
+    text-decoration: underline;
+    padding-bottom: 0.5rem;
+    
+}
+nav .active{
+    text-decoration: underline;
+}
+/* ======= Nav END ===== */
+.banner_text1{
+    color:#ffa500;
+    font-size: 4.3rem;
+}
+.banner_text2{
+    color:#ffa500;
+    font-size: 3.1rem;
+}
+.opening_text{
+    color: #ffa500;
+    font-size: 2rem;
+}
+.text-box{
+    border: 1px solid #ffa500;
+    width: 20rem;
+    height: 5rem;
+    margin: 1rem auto;
+    color:#ffa500;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px;
+}
+/* ======= Banner END ===== */
+
+.services .card{
+    border:1px solid #ffa500;
+    width: 22rem;
+    height: 25rem;
+    text-align: center;
+}
+.services .card-title{
+    color:#ffa500;
+    font-size: 2.25rem;
+}
+.services .card-text{
+    color:#ccb58a;
+    font-size: 1rem;
+}
+/* ======= Servies END ===== */
+.popular{
+    margin-top:3.75rem;
+    background-image: url("../img/background.png");
+   background-attachment: fixed;
+    height: 40rem; 
+}
+.popular img{
+    width: 250px;
+    height: 200px;
+}
+/* ======= Popular END ===== */
+
+.team{
+    width: 100%;
+    height: 31.25rem;
+    background-color: #b7b6c1;
+    padding: 5rem;
+    color:#fff;
+}
+
+/* ======= Team END ===== */
+.feedback  {
+   
+}
+.feed_box{
+     width: 33rem;
+    height: auto;
+    border: 1px solid #ffa500;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    padding:1.2rem;
+    margin: auto;
+    color:#ffa500;
+    bottom: 0px;
+    font-size: 0.6;
+}
+.feed_box .img-fluid{
+    border-radius: 50%;
+    border:1px solid #ffa500;
+}
+
+/* ======= Feedback End ===== */
+
+
+footer{
+    margin-top: 3.75rem;
+    padding-top:3rem; 
+    background-color: #321e65;
+    height: 15rem;
+    width: 100%;
+    font-size: 2rem;
+    color:#fff;
+    text-align: center;
+}
+footer p {
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+}
+/* ======= footer ===== */
+
